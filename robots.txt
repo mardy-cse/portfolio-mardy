@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://portfolio-johnlitonmardy.replit.app/sitemap.xml
+
+# Allow all crawlers access to CSS and JS files
+Allow: /assets/css/
+Allow: /assets/js/
+Allow: /assets/images/
+
+# Disallow access to server files
+Disallow: /server.js
+Disallow: /package.json
+Disallow: /package-lock.json
